@@ -18,8 +18,6 @@ stages:
       inputs:
         versionSpec: '20.x'
       displayName: 'Install Node.js'
-  - job: packages_install
-    steps:
     - task: Npm@1
       displayName: 'Packages Install'
       inputs:
